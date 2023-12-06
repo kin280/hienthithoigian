@@ -1,13 +1,14 @@
 ﻿using System;
 
-namespace dotnet_system_time
+namespace systemtime
+{ 
+internal class Program
 {
-    class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            DateTime localDate = DateTime.Now;
-            System.Console.WriteLine("Datetime Now is :" + localDate);
-        }
+        DateTime locatime = DateTime.Now;
+        System.Console.WriteLine("thời gian hiện tại là " + locatime);
+     
     }
+}
 }
